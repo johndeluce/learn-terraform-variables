@@ -132,5 +132,5 @@ module "terraform-aws-s3-bucket-jrd" {
   version = "1.1.0"
   # insert required variables here
 
-  bucket_name = "s3_bucket_test-12523356" # bucket name
+  bucket_name = "s3-bucket-test-12523356" # bucket name
 }
