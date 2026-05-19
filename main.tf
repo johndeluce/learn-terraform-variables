@@ -129,7 +129,7 @@ module "ec2_instances" {
 
 module "terraform-aws-s3-bucket-jrd" {
   source  = "app.terraform.io/policy-as-code-training/terraform-aws-s3-bucket-jrd/aws"
-  version = "1.1.0"
+  version = "1.1.0" # Test with tag v1.1.5
   # insert required variables here
 
   bucket_name = "s3-bucket-test-12523356" # bucket name
